@@ -1,0 +1,28 @@
+@keyframes scan {
+    0% {
+      top: 0; 
+    }
+    25% {
+      top: 100%;
+    }
+    50% {
+      top: 0%;
+    }
+    75% {
+      top: 100%;
+    }
+    100% {
+      top: 0%; 
+    }
+  }
+  
+  .scanner {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background: linear-gradient(to bottom, rgba(0, 255, 0, 0.5) 0%, rgba(0, 255, 0, 0.7) 50%, rgba(0, 255, 0, 0.5) 100%);
+    animation: scan 5s linear infinite; 
+  }
+  
